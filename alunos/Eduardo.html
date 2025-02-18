@@ -4,7 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículo - Eduardo</title>
-    <link rel="stylesheet" href="../estilos/Eduardo/Eduardo.css">
+    <link rel="stylesheet" href="../estilos/Eduardo.css">
+    <style>
+    /* Estilo Geral para a Seção de Projetos */
+.projects {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+
+
+
+.project-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 15px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Estilo do Link */
+.project-link {
+    display: block;
+    padding: 20px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border-radius: 8px;
+}
+
+.project-link:hover {
+    background-color: #f0f0f0;
+}
+
+/* Título do Projeto */
+.project-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2196f3;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+/* Descrição do Projeto */
+.project-description {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .project-title {
+        font-size: 1.25rem;
+    }
+
+    .project-description {
+        font-size: 0.9rem;
+    }
+}
+</style>
 </head>
 <body>
 
@@ -62,12 +137,18 @@
 <section class="projects">
     <h2 class="section-title">Exemplos de Projetos</h2>
     <div class="section-content">
-        <p>Confira um site que desenvolvi:</p>
-        <ul>
-            <li><a href="https://educandido01.github.io/Projeto_bootstrap/" target="_blank">Projeto 1: Site de Portfólio</a></li>
+        <p>Confira um dos projetos que desenvolvi:</p>
+        <ul class="project-list">
+            <li class="project-item">
+                <a href="https://educandido01.github.io/Projeto_bootstrap/" target="_blank" class="project-link">
+                    <h3 class="project-title">Projeto 1: Site de Portfólio</h3>
+                    <p class="project-description">Um site responsivo e moderno para exibição de portfólio profissional, utilizando Bootstrap.</p>
+                </a>
+            </li>
         </ul>
     </div>
 </section>
+
 
 <footer>
     <p>© 2025 Eduardo C. Jesus.</p>
