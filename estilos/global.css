@@ -17,3 +17,8 @@ footer {
     border-top: 3px solid #FFD700;
     margin-top: auto;
 }
+
+img{
+    width: 250px;
+    height: 250px;
+}
