@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 40px;
+}
+header {
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 40px 0;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+nav {
+    background-color: #343a40;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.1em;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.section-title {
+    font-size: 1.6em;
+    margin-top: 20px;
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+.section-content {
+    margin-top: 10px;
+}
+.contact-info, .skills, .experience, .education {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.contact-info p, .skills ul, .experience ul, .education ul {
+    margin: 0;
+}
+.skills li, .experience li, .education li {
+    margin-bottom: 12px;
+}
+.experience li, .education li {
+    padding-left: 20px;
+    position: relative;
+}
+.experience li::before, .education li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #007bff;
+    transform: translateY(-50%);
+}
+.experience p, .education p {
+    font-size: 0.95em;
+    color: #555;
+    margin-top: 5px;
+}
+.skills ul {
+    list-style-type: none;
+}
+.skills li {
+    background-color: #e9ecef;
+    padding: 8px 15px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 5px 10px;
+}
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #777;
+}
