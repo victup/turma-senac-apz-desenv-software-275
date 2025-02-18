@@ -1,0 +1,19 @@
+body {
+    background-color: #121212;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color: #FFD700;
+}
+
+footer {
+    background-color: #111;
+    color: #FFD700;
+    padding: 15px;
+    text-align: center;
+    border-top: 3px solid #FFD700;
+    margin-top: auto;
+}
