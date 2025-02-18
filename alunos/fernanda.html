@@ -8,15 +8,25 @@
 </head>
 <body>
 
+<!-- Menu com botão de voltar -->
+<nav class="navbar">
+    <button onclick="window.history.back()" class="back-button">Voltar</button>
+</nav>
+
 <header>
-    <h1>Currículo - Fernanda Carolina</h1>
-    <p>Profissão: </p>
+    <div class="header-content">
+        <img src="../imagens/Shadow The Hedgehog.jpg" alt="Foto de Fernanda Carolina" class="profile-photo">
+        <div class="header-text">
+            <h1>Currículo - Fernanda Carolina</h1>
+            <p>Profissão: Jovem Aprendiz Desenvolvedor de Software</p>
+        </div>
+    </div>
 </header>
 
 <section>
     <div class="container">
         <h2>Sobre Mim</h2>
-        <p>Olá! Sou um profissional apaixonado por tecnologia e design. Com experiência em desenvolvimento de websites e aplicativos, sempre buscando aprender novas habilidades e melhorar meus conhecimentos.</p>
+        <p>Olá! Sou um profissional dedicado com experiência em funções administrativas. Ao longo da minha trajetória, adquiri habilidades em organização, atendimento ao cliente, e gestão de documentos, sempre buscando melhorar meus processos e me adaptar às necessidades do ambiente de trabalho.</p>
     </div>
 </section>
 
@@ -25,12 +35,12 @@
         <h2>Experiência Profissional</h2>
         <ul>
             <li>
-                <strong>Desenvolvedor Web</strong> - Empresa X (Jan 2020 - Atual)<br>
-                Responsável pela criação de sites responsivos e otimizados, utilizando HTML, CSS, JavaScript e frameworks como React.
+                <strong>Aprendiz Assistente Administrativo</strong> - Brasília Segurança (Abri X 2022)<br>
+                Responsável pelo aprendizado da rotina administrativa. 
             </li>
             <li>
-                <strong>Designer Gráfico</strong> - Empresa Y (Ago 2018 - Dez 2019)<br>
-                Criação de materiais gráficos como logos, banners e publicações para redes sociais utilizando Adobe Photoshop e Illustrator.
+                <strong>Aprendiz Desenvolvimento de Software</strong> - Brasília Segurança (Maio 2024 - junho 2025)<br>
+                Como aprendiz em Desenvolvimento de Software, aprendendo a programar e testar códigos. Trabalho com diferentes linguagens de programação e ferramentas de desenvolvimento sob supervisão.
             </li>
         </ul>
     </div>
@@ -40,8 +50,8 @@
     <div class="container">
         <h2>Formação Acadêmica</h2>
         <ul>
-            <li><strong>Bacharelado em Ciência da Computação</strong> - Universidade ABC (2015 - 2019)</li>
-            <li><strong>Técnico em Design Gráfico</strong> - Escola XYZ (2013 - 2015)</li>
+            <li><strong>Bacharelado em Agronomia</strong> - Centro Universitário de Maringá (2025 - 2030)</li>
+            <li><strong>Tecnologia em Gestão Ambiental</strong> - Centro Universitário de Maringá (2023 - 2024)</li>
         </ul>
     </div>
 </section>
@@ -52,12 +62,8 @@
         <div class="skills">
             <div class="skill">HTML</div>
             <div class="skill">CSS</div>
-            <div class="skill">JavaScript</div>
-            <div class="skill">React</div>
-            <div class="skill">Adobe Photoshop</div>
-            <div class="skill">Adobe Illustrator</div>
-            <div class="skill">Figma</div>
             <div class="skill">Git</div>
+            <div class="skill">Canva</div>
         </div>
     </div>
 </section>
@@ -66,16 +72,23 @@
     <div class="container">
         <h2>Contato</h2>
         <ul>
-            <li>Email: seuemail@dominio.com</li>
+            <li>Email: fernandaffranca004@gmail.com</li>
             <li>LinkedIn: linkedin.com/in/seunome</li>
-            <li>GitHub: github.com/seunome</li>
+            <li>GitHub: github.com/nanaa004</li>
         </ul>
     </div>
 </section>
 
 <footer>
-    <p>&copy; 2025 Seu Nome. Todos os direitos reservados.</p>
+    <p>&copy; 2025 Fernanda. Todos os direitos reservados.</p>
 </footer>
+
+<script>
+    // Função para voltar à página anterior
+    function goBack() {
+        window.history.back();
+    }
+</script>
 
 </body>
 </html>

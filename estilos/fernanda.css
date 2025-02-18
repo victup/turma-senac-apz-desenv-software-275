@@ -1,4 +1,4 @@
-/* Estilos gerais do corpo da página */
+/* Estilos gerais do corpo */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,20 +6,62 @@ body {
     background-color: #f4f4f9;
 }
 
-/* Estilos do cabeçalho */
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 20px;
+/* Barra de navegação */
+.navbar {
+    background-color: #a6d7ff;
+    padding: 10px;
     text-align: center;
 }
 
-/* Seções principais */
+/* Botão de voltar */
+.back-button {
+    background-color: #f44336; /* Cor do botão */
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: #e53935; /* Cor do botão quando passa o mouse */
+}
+
+/* Cabeçalho com foto pequena no canto superior esquerdo */
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #a6d7ff;
+    color: white;
+}
+
+/* Estilo da foto */
+.profile-photo {
+    width: 80px; /* Foto pequena */
+    height: 80px; 
+    border-radius: 50%;
+    margin-right: 20px; /* Espaço entre a foto e o texto */
+}
+
+/* Estilo para o conteúdo do cabeçalho */
+.header-text h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.header-text p {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+/* Seções do currículo */
 section {
     padding: 20px;
 }
 
-/* Container centralizado */
+/* Container para o conteúdo */
 .container {
     width: 80%;
     margin: 0 auto;
@@ -27,7 +69,7 @@ section {
 
 /* Título das seções */
 h2 {
-    color: #4CAF50;
+    color: #a6d7ff;
 }
 
 /* Lista de itens */
@@ -57,7 +99,7 @@ li {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #a6d7ff;
     color: white;
     margin-top: 20px;
 }
