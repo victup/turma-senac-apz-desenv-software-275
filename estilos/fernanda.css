@@ -1,0 +1,105 @@
+/* Estilos gerais do corpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* Barra de navegação */
+.navbar {
+    background-color: #a6d7ff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Botão de voltar */
+.back-button {
+    background-color: #7397fa; /* Cor do botão */
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: #7397fa; /* Cor do botão quando passa o mouse */
+}
+
+/* Cabeçalho com foto pequena no canto superior esquerdo */
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #a6d7ff;
+    color: white;
+}
+
+/* Estilo da foto */
+.profile-photo {
+    width: 80px; /* Foto pequena */
+    height: 80px; 
+    border-radius: 50%;
+    margin-right: 20px; /* Espaço entre a foto e o texto */
+}
+
+/* Estilo para o conteúdo do cabeçalho */
+.header-text h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.header-text p {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+/* Seções do currículo */
+section {
+    padding: 20px;
+}
+
+/* Container para o conteúdo */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Título das seções */
+h2 {
+    color: #a6d7ff;
+}
+
+/* Lista de itens */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px 0;
+}
+
+/* Estilos para habilidades */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background-color: #ddd;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #a6d7ff;
+    color: white;
+    margin-top: 20px;
+}

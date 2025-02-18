@@ -1,0 +1,167 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilizando o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    transition: background-color 0.3s ease; /* Efeito suave para mudanças de fundo */
+}
+
+/* Container para o conteúdo */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Efeito suave no hover */
+}
+
+/* Efeito de hover para a container */
+.container:hover {
+    transform: scale(1.02); /* Leve aumento de tamanho */
+}
+
+/* Menu de navegação */
+.menu {
+    background-color: #FFD700;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave no menu */
+}
+
+.menu ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    color: #0a0a0a;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    padding: 5px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.menu ul li a:hover {
+    color: #FFD700; /* Mudando cor no hover */
+    text-decoration: underline;
+    transform: scale(1.1); /* Aumenta o tamanho do texto no hover */
+}
+
+/* Estilizando o cabeçalho com a foto de perfil */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+    animation: fadeIn 1.5s ease-out; /* Efeito de fade-in */
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 4px solid #FFD700; /* Bordas douradas ao redor da imagem */
+    transition: transform 0.3s ease; /* Efeito de transform na imagem */
+}
+
+.foto-perfil:hover {
+    transform: scale(1.05); /* Aumenta a foto suavemente no hover */
+}
+
+.header h1 {
+    font-size: 36px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.header h1:hover {
+    color: #FFD700; /* Mudança de cor no hover */
+}
+
+.header p {
+    font-size: 20px;
+    color: #777;
+    transition: color 0.3s ease;
+}
+
+.header p:hover {
+    color: #FFD700; /* Mudança de cor no hover */
+}
+
+/* Estilo para as seções */
+h2 {
+    color: #444;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease; /* Efeito de transição para o background */
+}
+
+ul li:hover {
+    background-color: #f0f0f0; /* Cor de fundo suave no hover */
+}
+
+ul li h3 {
+    font-size: 20px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+ul li h3:hover {
+    color: #FFD700; /* Mudança de cor ao passar o mouse */
+}
+
+ul li p {
+    color: #666;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #FFD700; /* Mudança de cor no hover */
+}
+
+/* Animação fade-in */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
