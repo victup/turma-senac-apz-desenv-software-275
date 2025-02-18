@@ -1,0 +1,63 @@
+/* Estilos gerais do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Seções principais */
+section {
+    padding: 20px;
+}
+
+/* Container centralizado */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Título das seções */
+h2 {
+    color: #4CAF50;
+}
+
+/* Lista de itens */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px 0;
+}
+
+/* Estilos para habilidades */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background-color: #ddd;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    margin-top: 20px;
+}
