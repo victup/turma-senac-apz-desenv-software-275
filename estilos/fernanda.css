@@ -15,7 +15,7 @@ body {
 
 /* Botão de voltar */
 .back-button {
-    background-color: #f44336; /* Cor do botão */
+    background-color: #7397fa; /* Cor do botão */
     color: white;
     font-size: 16px;
     padding: 10px 20px;
@@ -25,7 +25,7 @@ body {
 }
 
 .back-button:hover {
-    background-color: #e53935; /* Cor do botão quando passa o mouse */
+    background-color: #7397fa; /* Cor do botão quando passa o mouse */
 }
 
 /* Cabeçalho com foto pequena no canto superior esquerdo */
