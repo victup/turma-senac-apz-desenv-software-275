@@ -5,8 +5,149 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Git em equipe</title>
+
+    <link rel="stylesheet" href="../estilos/jose/styles.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1f1f1f;
+            color: #fff;
+        }
+        .container{
+            background-color: #282828;
+            border-radius: 25px;
+            box-shadow: 7px 7px 8px #242424;
+        }
+        .section-title {
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+        .contact-info a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        .card, .list-group-item{
+            background-color: #888;
+        }
+    </style>
 </head>
 <body>
-    <h1>Primeiro commit</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Turma 2024.07.275</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Inicial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre a Turma</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Memorial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Evolução</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <!-- Cabeçalho -->
+                <header class="mb-5 pt-5">
+                    <h1>José inácio Fernandes da Silva</h1>
+                    <p class="lead">Desenvolvedor Full-Stack</p>
+                    <div class="contact-info">
+                        <p>Email: <a href="mailto:js.inacio746@gmail.com">js.inacio746@gmail.com</a></p>
+                        <p>Telefone: (61) 99457-1454</p>
+                        <p>LinkedIn: <a href="https://www.linkedin.com/in/jos%C3%A9-in%C3%A1cio-277a62264/" target="_blank">www.linkedin.com/in/josé-inácio-277a62264</a></p>
+                        <p>GitHub: <a href="https://github.com/Jinacio23" target="_blank">https://github.com/Jinacio23</a></p>
+                    </div>
+                </header>
+    
+                <!-- Experiência Profissional -->
+                <section class="mb-5">
+                    <h2 class="section-title">Experiência Profissional</h2>
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Senac</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Jovem Aprendiz</h6>
+                            <p class="card-text">Período: 05/2024 - 07/2025</p>
+                            <p class="card-text">Apredizagem e prática de habilidades variadas em TI</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="mb-5">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">React-It</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Estágiario</h6>
+                            <p class="card-text">Período: 11/2024 - 07/2025</p>
+                            <p class="card-text">Tenho aprendido e desenvolvido minhas habilidades agindo bastante na correção de bugs, implementação de funcionalidades, manutenção e melhorias</p>
+                        </div>
+                    </div>
+                </section>
+    
+                <!-- Educação -->
+                <section class="mb-5">
+                    <h2 class="section-title">Educação</h2>
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Faculade Senac-DF</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Análise e Desenvolvimento de sistemas</h6>
+                            <p class="card-text">Período: 07/2023 - 07/2025</p>
+                            <p class="card-text">Graduação em Análise e Desenvolvimento de Sistemas, com foco em programação, desenvolvimento de software, 
+                                gestão de projetos e tecnologias emergentes. Durante o curso, adquiri conhecimentos em linguagens de programação 
+                                como Java, PHP e JavaScript, além de experiência em bancos de dados, desenvolvimento web e mobile, e metodologias 
+                                ágeis como Scrum. Participei de projetos práticos que me permitiram aplicar conceitos teóricos em soluções reais, 
+                                preparando-me para desafios no mercado de tecnologia.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+    
+                <!-- Habilidades -->
+                <section class="mb-5">
+                    <h2 class="section-title">Habilidades</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item">JavaScript</li>
+                        <li class="list-group-item">TypeScript</li>
+                        <li class="list-group-item">React/Next.js</li>
+                        <li class="list-group-item">CSS</li>
+                        <li class="list-group-item">Tailwind</li>
+                        <li class="list-group-item">PHP</li>
+                        <li class="list-group-item">Git e GitHub</li>
+                        <li class="list-group-item">Certificação CertiProf Fundamentos Scrum</li>
+                    </ul>
+                </section>
+    
+                <!-- Projetos -->
+                <section class="mb-5">
+                    <h2 class="section-title">Projetos</h2>
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Clone do netflix</h5>
+                            <p class="card-text">Clone do Netflix para melhor aprendizagem dos conceitos de css. #7DaysOfCode</p>
+                            <a href="https://jinacio23.github.io/Clone_Netflix/
+                            " class="card-link">Link para o projeto</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bootstrap JS e dependências -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
